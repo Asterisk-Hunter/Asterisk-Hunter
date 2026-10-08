@@ -23,6 +23,6 @@ I’m an Undergraduate Visiting Scholar at Johns Hopkins University, currently r
 
 ## Away from the screen
 
-I love travelling, read manga, watch anime and a lot of films, and have **14,000 trophies** in Clash Royale. I speak Telugu, Hindi, English, and Tamil fluently, and a little Malayalam.
+I love travelling. I read manga—**Blue Lock** and **The Beginning After the End** are favorites—and watch anime and a lot of films. I have **14,000 trophies** in Clash Royale and speak Telugu, Hindi, English, and Tamil fluently, plus a little Malayalam.
 
 [Portfolio →](https://chandrateja.dev/) · [GitHub projects →](https://github.com/Asterisk-Hunter?tab=repositories)
