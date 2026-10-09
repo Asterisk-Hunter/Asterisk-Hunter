@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none">
+  <title>Patch loop</title>
+  <desc>A small animated workflow moves from an issue through a focused patch and checks to an upstream contribution.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#DCE6F1" stroke-opacity=".035"/>
+    </pattern>
+    <linearGradient id="rail" x1="590" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D5E8AF" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#D5E8AF" stop-opacity=".8"/>
+    </linearGradient>
+    <filter id="glow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; }
+    @media (prefers-reduced-motion: reduce) { .runner { display: none; } }
+  </style>
+
+  <rect width="1200" height="420" rx="18" fill="#11161C"/>
+  <rect width="1200" height="420" rx="18" fill="url(#grid)"/>
+  <path d="M1 82H1199" stroke="#DCE6F1" stroke-opacity=".1"/>
+  <rect x="1" y="1" width="1198" height="418" rx="17" stroke="#DCE6F1" stroke-opacity=".14"/>
+
+  <circle cx="35" cy="42" r="5" fill="#E7A77E"/>
+  <circle cx="54" cy="42" r="5" fill="#D5E8AF" fill-opacity=".8"/>
+  <circle cx="73" cy="42" r="5" fill="#DCE6F1" fill-opacity=".3"/>
+  <text x="100" y="47" class="mono" fill="#C4CBD3" font-size="13" letter-spacing="1.4">ASTERISK-HUNTER / PATCH LOOP</text>
+  <text x="1095" y="47" text-anchor="end" class="mono" fill="#D5E8AF" font-size="12" letter-spacing="1.2">LIVE TRACE</text>
+  <circle cx="1110" cy="42" r="4" fill="#D5E8AF">
+    <animate attributeName="opacity" values="1;.45;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="60" y="151" class="mono" fill="#D5E8AF" font-size="13" letter-spacing="2.2">A SMALL THING IS OFF.</text>
+  <text x="56" y="222" class="sans" fill="#F4F1E8" font-size="52" font-weight="650" letter-spacing="-2">Follow the bug.</text>
+  <text x="56" y="282" class="sans" fill="#F4F1E8" font-size="52" font-weight="650" letter-spacing="-2">Fix the flow.</text>
+  <text x="60" y="332" class="sans" fill="#A7B0BA" font-size="16">Read the source. Make one change. Check the result.</text>
+  <path d="M60 365H420" stroke="#D5E8AF" stroke-opacity=".55"/>
+  <text x="60" y="390" class="mono" fill="#84909B" font-size="11" letter-spacing="1.3">ISSUE  →  PATCH  →  CHECKS  →  UPSTREAM</text>
+
+  <rect x="498" y="112" width="650" height="248" rx="12" fill="#171E25" stroke="#DCE6F1" stroke-opacity=".14"/>
+  <text x="526" y="145" class="mono" fill="#A7B0BA" font-size="12" letter-spacing="1.2">A ROUTE THROUGH THE REPO</text>
+  <text x="1120" y="145" text-anchor="end" class="mono" fill="#84909B" font-size="11">4 STEPS / NO SHORTCUTS</text>
+
+  <path d="M566 228H1084" stroke="#38434D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M566 228H1084" stroke="url(#rail)" stroke-width="2" stroke-linecap="round"/>
+
+  <g class="mono" text-anchor="middle">
+    <circle cx="566" cy="228" r="15" fill="#202A30" stroke="#D5E8AF" stroke-opacity=".55"/>
+    <text x="566" y="233" fill="#D5E8AF" font-size="12">01</text>
+    <text x="566" y="273" fill="#E9EDF1" font-size="12" letter-spacing=".8">INSPECT</text>
+    <text x="566" y="297" fill="#84909B" font-size="11">reproduce</text>
+
+    <circle cx="739" cy="228" r="15" fill="#202A30" stroke="#D5E8AF" stroke-opacity=".55"/>
+    <text x="739" y="233" fill="#D5E8AF" font-size="12">02</text>
+    <text x="739" y="273" fill="#E9EDF1" font-size="12" letter-spacing=".8">PATCH</text>
+    <text x="739" y="297" fill="#84909B" font-size="11">stay focused</text>
+
+    <circle cx="912" cy="228" r="15" fill="#202A30" stroke="#D5E8AF" stroke-opacity=".55"/>
+    <text x="912" y="233" fill="#D5E8AF" font-size="12">03</text>
+    <text x="912" y="273" fill="#E9EDF1" font-size="12" letter-spacing=".8">CHECK</text>
+    <text x="912" y="297" fill="#84909B" font-size="11">trust the tests</text>
+
+    <circle cx="1084" cy="228" r="15" fill="#202A30" stroke="#D5E8AF" stroke-opacity=".55"/>
+    <text x="1084" y="233" fill="#D5E8AF" font-size="12">04</text>
+    <text x="1084" y="273" fill="#E9EDF1" font-size="12" letter-spacing=".8">UPSTREAM</text>
+    <text x="1084" y="297" fill="#84909B" font-size="11">send it back</text>
+  </g>
+
+  <circle class="runner" cy="228" r="7" fill="#F4F1E8" filter="url(#glow)">
+    <animate attributeName="cx" values="566;739;912;1084;1084;566" keyTimes="0;.28;.56;.84;.92;1" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M526 330H1120" stroke="#DCE6F1" stroke-opacity=".08"/>
+  <text x="526" y="345" class="mono" fill="#84909B" font-size="10" letter-spacing="1">TRACE A BEHAVIOR</text>
+  <text x="1120" y="345" text-anchor="end" class="mono" fill="#84909B" font-size="10" letter-spacing="1">LEAVE IT BETTER</text>
+</svg>
