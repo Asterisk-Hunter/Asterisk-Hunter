@@ -1,13 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="320" viewBox="0 0 1600 320" fill="none">
-  <rect width="1600" height="320" fill="#30271F"/>
-  <path d="M0 1H1600M0 319H1600" stroke="#F4F1E8" stroke-opacity=".16"/>
-  <text x="76" y="72" fill="#C9D8AD" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="2.8">OPEN SOURCE / FIELD NOTES</text>
-  <text x="72" y="166" fill="#F4F1E8" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2.6">CHANDRA TEJA PANNEM</text>
-  <text x="78" y="218" fill="#C7BEB0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="1.8">CODE / DOCUMENTATION / PRODUCT DETAILS</text>
-  <path d="M1222 86V234M1222 118H1332M1222 198H1452M1332 118V158H1452" stroke="#C9D8AD" stroke-width="2" stroke-opacity=".7"/>
-  <circle cx="1222" cy="86" r="8" fill="#C9D8AD"/>
-  <circle cx="1222" cy="234" r="8" fill="#C9D8AD"/>
-  <circle cx="1332" cy="118" r="8" fill="#F4F1E8"/>
-  <circle cx="1452" cy="158" r="8" fill="#C9D8AD"/>
-  <circle cx="1452" cy="198" r="8" fill="#C9D8AD"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" fill="none">
+  <rect width="1600" height="360" fill="#29251F"/>
+  <path d="M0 1H1600M0 359H1600" stroke="#F4F1E8" stroke-opacity=".16"/>
+  <path d="M1112 40V320M1112 84H1200V132H1288V180H1376V228H1464V276H1544" stroke="#C9D8AD" stroke-width="2" stroke-opacity=".55"/>
+  <circle cx="1112" cy="40" r="5" fill="#C9D8AD"/>
+  <circle cx="1200" cy="84" r="5" fill="#F4F1E8"/>
+  <circle cx="1288" cy="132" r="5" fill="#C9D8AD"/>
+  <circle cx="1376" cy="180" r="5" fill="#F4F1E8"/>
+  <circle cx="1464" cy="228" r="5" fill="#C9D8AD"/>
+  <circle cx="1544" cy="276" r="5" fill="#C9D8AD"/>
+  <text x="76" y="76" fill="#C9D8AD" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="3">UPSTREAM / CHANGELOG 2026</text>
+  <text x="72" y="175" fill="#F4F1E8" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2.2">Chandra Teja Pannem</text>
+  <text x="78" y="226" fill="#C7BEB0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="1.5">SMALL FIXES. CLEARER PATHS.</text>
+  <path d="M78 276H414" stroke="#C9D8AD" stroke-width="2"/>
+  <text x="78" y="316" fill="#C7BEB0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1.1">PRODUCT UX  /  DOCS  /  DEVELOPER TOOLS</text>
 </svg>
