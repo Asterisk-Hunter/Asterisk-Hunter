@@ -12,17 +12,18 @@
 
 I like the “wait, why does this do that?” moment. Then I open the source.
 
-<details>
-  <summary><strong>Open-source patches</strong></summary>
-  <br />
+<h3 align="center">A few open-source corners I've explored</h3>
 
-  - [Submitty #12678](https://github.com/Submitty/Submitty/pull/12678) · Forum files and submissions open in normal tabs.
-  - [Qiskit pauli-prop #90](https://github.com/Qiskit/pauli-prop/pull/90) · API source links now match the package layout.
-  - [Qiskit Serverless #2516](https://github.com/Qiskit/qiskit-serverless/pull/2516) · Documented `job.result(wait=False)`.
-  - [PennyLane Catalyst #3272](https://github.com/PennyLaneAI/catalyst/pull/3272) · Corrected the dictionary ordering note.
-  - [Unitary Compiler Collection #713](https://github.com/unitaryfoundation/ucc/pull/713) · Replaced a duplicated checklist with its maintained template.
-  - [Qiskit Paulice #63](https://github.com/Qiskit/qiskit-paulice/pull/63) · Updated links to the current tutorial.
-</details>
+<table align="center">
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/Submitty"><img src="https://avatars.githubusercontent.com/u/10768785?v=4" width="56" height="56" alt="Submitty" /></a><br /><sub>Submitty</sub></td>
+      <td align="center"><a href="https://github.com/Qiskit"><img src="https://avatars.githubusercontent.com/u/30696987?v=4" width="56" height="56" alt="Qiskit" /></a><br /><sub>Qiskit</sub></td>
+      <td align="center"><a href="https://github.com/PennyLaneAI"><img src="https://avatars.githubusercontent.com/u/64286425?v=4" width="56" height="56" alt="PennyLane" /></a><br /><sub>PennyLane</sub></td>
+      <td align="center"><a href="https://github.com/unitaryfoundation"><img src="https://avatars.githubusercontent.com/u/50056634?v=4" width="56" height="56" alt="Unitary Foundation" /></a><br /><sub>Unitary Foundation</sub></td>
+    </tr>
+  </tbody>
+</table>
 
 <br />
 
