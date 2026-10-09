@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" fill="none">
+  <title>Chandra Teja Pannem, Asterisk-Hunter</title>
+  <desc>A bright, animated asterisk emblem orbiting beside Chandra's GitHub handle.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151326"/>
+      <stop offset=".55" stop-color="#20213D"/>
+      <stop offset="1" stop-color="#17283A"/>
+    </linearGradient>
+    <linearGradient id="type" x1="56" y1="0" x2="738" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset=".7" stop-color="#D9E7FF"/>
+      <stop offset="1" stop-color="#B9C8FF"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="matrix(0 94 -94 0 1022 164)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9D978" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#F9D978" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#DDE7FF" fill-opacity=".12"/>
+    </pattern>
+  </defs>
+  <style>
+    .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .asterisk { transform-box: fill-box; transform-origin: center; animation: spin 28s linear infinite; }
+    .satellite { transform-box: fill-box; transform-origin: center; animation: spin 9s linear infinite; }
+    .shine { animation: shine 3.5s ease-in-out infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes shine { 0%,100% { opacity: .3; } 50% { opacity: .85; } }
+    @media (prefers-reduced-motion: reduce) {
+      .asterisk, .satellite, .shine { animation: none; }
+      .shine { opacity: .55; }
+    }
+  </style>
+
+  <rect width="1280" height="330" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="330" rx="18" fill="url(#dots)"/>
+  <path d="M0 274C256 242 393 317 663 281C900 249 1053 205 1280 232V330H0V274Z" fill="#283050" fill-opacity=".32"/>
+  <path d="M0 274C256 242 393 317 663 281C900 249 1053 205 1280 232" stroke="#A8B8F7" stroke-opacity=".18"/>
+  <circle cx="1022" cy="164" r="120" fill="url(#core)"/>
+
+  <text x="58" y="65" class="mono" fill="#A6E3A1" font-size="14" letter-spacing="2.4">@ ASTERISK-HUNTER</text>
+  <text x="52" y="155" class="sans" fill="url(#type)" font-size="59" font-weight="720" letter-spacing="-2.8">Chandra Teja</text>
+  <text x="52" y="222" class="sans" fill="url(#type)" font-size="59" font-weight="720" letter-spacing="-2.8">Pannem</text>
+  <rect x="58" y="261" width="8" height="8" rx="2" fill="#F9D978" class="shine"/>
+  <text x="78" y="270" class="mono" fill="#C8D0E8" font-size="13" letter-spacing="1.5">OPEN SOURCE  /  BUILDING  /  FIGURING IT OUT</text>
+
+  <ellipse cx="1022" cy="164" rx="157" ry="72" transform="rotate(-28 1022 164)" stroke="#89DCEB" stroke-opacity=".5" stroke-width="1.5"/>
+  <ellipse cx="1022" cy="164" rx="157" ry="72" transform="rotate(37 1022 164)" stroke="#CBA6F7" stroke-opacity=".45" stroke-width="1.5"/>
+  <g class="asterisk" stroke-linecap="round" stroke-width="12">
+    <path d="M1022 104V224" stroke="#F9D978"/>
+    <path d="M970 134L1074 194" stroke="#F9D978"/>
+    <path d="M970 194L1074 134" stroke="#F9D978"/>
+    <path d="M962 164H1082" stroke="#F9D978"/>
+  </g>
+  <g class="satellite">
+    <circle cx="1154" cy="129" r="7" fill="#89DCEB"/>
+    <circle cx="1154" cy="129" r="14" stroke="#89DCEB" stroke-opacity=".45"/>
+  </g>
+  <path d="M1084 77L1092 94L1110 102L1092 110L1084 128L1076 110L1058 102L1076 94L1084 77Z" fill="#F38BA8"/>
+  <circle cx="913" cy="251" r="4" fill="#CBA6F7"/>
+  <circle cx="1170" cy="224" r="3" fill="#F9D978"/>
+  <circle cx="947" cy="88" r="3" fill="#89DCEB"/>
+  <rect x="1" y="1" width="1278" height="328" rx="17" stroke="#DDE7FF" stroke-opacity=".17"/>
+</svg>
