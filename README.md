@@ -1,28 +1,22 @@
 <div align="center">
-  <img src="assets/profile-header.svg" alt="Chandra Teja Pannem — Computer Science, IIIT Kottayam" width="100%" />
+  <img src="assets/profile-header.svg" alt="Chandra Teja Pannem. Code, documentation, and the details that connect them." width="100%" />
 </div>
 
-<h1 align="center">Chandra Teja Pannem</h1>
-<p align="center">Computer Science undergraduate · IIIT Kottayam</p>
+# Chandra Teja Pannem
 
-I’m from Andhra Pradesh and study in Kerala. I’m drawn to mathematics and computer vision, and I like taking ideas from a rough sketch to something people can use.
+I enjoy working in unfamiliar codebases and fixing the small mismatches that make them harder to use, from undocumented behavior to broken links and clumsy browser workflows.
 
-## What I’m working on
+## Merged upstream contributions
 
-I’m an Undergraduate Visiting Scholar at Johns Hopkins University, currently researching **interactive segmentation**.
+- **[Submitty](https://github.com/Submitty/Submitty/pull/12678)** · Replaced fixed-size popup windows for forum files and submissions with regular browser tabs.
+- **[Qiskit pauli-prop](https://github.com/Qiskit/pauli-prop/pull/90)** · Fixed API source links that pointed to a nonexistent path by matching the repository’s `python/` package layout.
+- **[Qiskit Serverless](https://github.com/Qiskit/qiskit-serverless/pull/2516)** · Documented what `job.result(wait=False)` returns and when to poll for completion.
+- **[PennyLane Catalyst](https://github.com/PennyLaneAI/catalyst/pull/3272)** · Corrected the pipeline docs to reflect Python’s insertion-order guarantee for dictionaries.
+- **[Unitary Compiler Collection](https://github.com/unitaryfoundation/ucc/pull/713)** · Removed a duplicated pass-proposal checklist and linked contributors to its maintained discussion template.
+- **[Qiskit Paulice](https://github.com/Qiskit/qiskit-paulice/pull/63)** · Updated tutorial links to the current Qiskit platform guide.
 
-## Selected work
+I try to follow an issue through to its source, keep the patch focused, and leave the next person a clearer path.
 
-- **[KOJ](https://koj.chandrateja.dev/)** — An online judge and contest platform for IIIT Kottayam. Submissions run in isolated workers, with verdicts sent back to the web app in real time.
-- **[RotoStream](https://rotostream.chandrateja.dev/)** — A browser-based rotoscoping studio for selecting a subject, tracking its mask, correcting drift, and exporting a cutout.
-- **Magazine websites** — With a teammate, I built three magazine sites from scratch and worked on their SEO, hosting, and ongoing management: [CIO Mogul](https://theciomogul.com/), [CIO Healthcare Magazine](https://www.ciohealthcaremagazine.com/), and [CIO Mogul India](https://www.ciomogulindia.com/).
+## Find me
 
-## Problem solving
-
-**250+** LeetCode problems · contest rating **1498**
-
-## Away from the screen
-
-I love travelling. I read manga—**Blue Lock** and **The Beginning After the End** are favorites—and watch anime and a lot of films. I have **14,000 trophies** in Clash Royale and speak Telugu, Hindi, English, and Tamil fluently, plus a little Malayalam.
-
-[Portfolio →](https://chandrateja.dev/) · [GitHub projects →](https://github.com/Asterisk-Hunter?tab=repositories)
+[Portfolio](https://www.chandrateja.dev) · [LinkedIn](https://in.linkedin.com/in/chandra-teja-pannem) · [LeetCode](https://leetcode.com/u/q4i6j3jtL8/)
